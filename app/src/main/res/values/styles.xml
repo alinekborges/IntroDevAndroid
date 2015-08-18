@@ -2,10 +2,25 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">#E91E63</item>
-        <item name="colorPrimaryDark">#C1124E</item>
-        <item name="colorAccent">#E91E63</item>
+        <!-- Cores principais do aplicativo -->
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#00695C</item>
+        <item name="colorAccent">#009688</item>
+
+        <!-- Desaparecer com a ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- cor branca para todos os textos e edittext -->
+        <item name="android:textColor">#FFF</item>
+        <item name="android:editTextColor">#FFF</item>
+
+        <!-- linha do edit text em branco -->
+        <item name="colorControlNormal">#fff</item>
+
+        <!-- imagem vai até atrás do mostrador de hora e bateria no topo -->
+        <item name="android:windowTranslucentStatus">true</item>
+
     </style>
 
 </resources>
